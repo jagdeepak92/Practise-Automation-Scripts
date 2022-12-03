@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression suite" thread-count="2" parallel="classes">
+  <test verbose="2" name="Regression test">
+    <classes>
+    <class name="regression_testing.TP_001"></class>
+    <class name="regression_testing.TP_002"></class>
+    <class name="regression_testing.TP_003"></class>
+    <class name="regression_testing.TP_004"></class>
+    <class name="regression_testing.TP_005"></class>
+    <class name="regression_testing.TP_006"></class>
+    <class name="regression_testing.TP_007"></class>
+    <class name="regression_testing.TP_008"></class>
+    <class name="regression_testing.TP_009"></class>
+    <class name="regression_testing.TP_010"></class>
+    <class name="regression_testing.TP_011"></class>
+    <class name="regression_testing.TP_013"></class>
+    <class name="regression_testing.TP_014"></class>
+    <class name="regression_testing.TP_015"></class>
+    <class name="regression_testing.TP_016"></class>
+    <class name="regression_testing.TP_017"></class>
+    <class name="regression_testing.TP_018"></class>
+    <class name="regression_testing.TP_019"></class>
+    <class name="regression_testing.TP_020"></class>
+    <class name="regression_testing.TP_022"></class>
+    <class name="regression_testing.TP_023"></class>
+    <class name="regression_testing.TP_024"></class>
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

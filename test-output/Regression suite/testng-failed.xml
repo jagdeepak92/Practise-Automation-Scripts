@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Regression suite]" parallel="classes">
+  <test name="Regression test(failed)" parallel="classes">
+    <classes>
+      <class name="regression_testing.TP_007">
+        <methods>
+          <include name="Reset"/>
+          <include name="Launch_Browser"/>
+          <include name="Quit_Browser"/>
+          <include name="Verify_homepage"/>
+          <include name="Updating_Service"/>
+        </methods>
+      </class> <!-- regression_testing.TP_007 -->
+      <class name="regression_testing.TP_014">
+        <methods>
+          <include name="Reset"/>
+          <include name="Quit_Browser"/>
+          <include name="Launch_Browser"/>
+          <include name="Transfer_eeds"/>
+          <include name="Verify_Homepage"/>
+        </methods>
+      </class> <!-- regression_testing.TP_014 -->
+      <class name="regression_testing.TP_019">
+        <methods>
+          <include name="Launch_Browser"/>
+          <include name="Verify_homepage"/>
+          <include name="Quit_Browser"/>
+          <include name="Network_Change"/>
+          <include name="Reset"/>
+        </methods>
+      </class> <!-- regression_testing.TP_019 -->
+      <class name="regression_testing.TP_018">
+        <methods>
+          <include name="Refund"/>
+          <include name="Reset"/>
+          <include name="Launch_Browser"/>
+          <include name="Verify_homepage"/>
+          <include name="Quit_Browser"/>
+        </methods>
+      </class> <!-- regression_testing.TP_018 -->
+      <class name="regression_testing.TP_004">
+        <methods>
+          <include name="Quit_Browser"/>
+          <include name="Verify_homepage"/>
+          <include name="Search_need"/>
+          <include name="Reset"/>
+          <include name="Launch_Browser"/>
+        </methods>
+      </class> <!-- regression_testing.TP_004 -->
+      <class name="regression_testing.TP_006">
+        <methods>
+          <include name="Reset"/>
+          <include name="Verify_Homepage"/>
+          <include name="Four_icons"/>
+          <include name="Quit_Browser"/>
+          <include name="Launch_Browser"/>
+        </methods>
+      </class> <!-- regression_testing.TP_006 -->
+      <class name="regression_testing.TP_009">
+        <methods>
+          <include name="Search_need"/>
+          <include name="Launch_Browser"/>
+          <include name="Quit_Browser"/>
+          <include name="Verify_homepage"/>
+          <include name="Reset"/>
+        </methods>
+      </class> <!-- regression_testing.TP_009 -->
+      <class name="regression_testing.TP_017">
+        <methods>
+          <include name="Verify_homepage"/>
+          <include name="Reset"/>
+          <include name="Quit_Browser"/>
+          <include name="File_Complaint"/>
+          <include name="Launch_Browser"/>
+        </methods>
+      </class> <!-- regression_testing.TP_017 -->
+    </classes>
+  </test> <!-- Regression test(failed) -->
+</suite> <!-- Failed suite [Regression suite] -->
